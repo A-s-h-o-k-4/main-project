@@ -1,0 +1,180 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'poppins', sans-serif;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+li a{
+    text-decoration: none;
+    color: gray;
+    transform: .3s;
+}
+
+li a:hover{
+    color: blue;
+}
+
+.navi{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    font-weight: bold;
+}
+
+.navi li{
+    display: inline-flex;
+    position: relative;
+    margin-left: 35px;
+    right: 30%;
+}
+
+.navi .title{
+    position: relative;
+    left: 20%;
+    text-decoration: none;
+    color: gray;
+}
+
+
+
+
+.hp {
+    background-color: lightcyan;
+    display: flex;
+}
+
+.pro {
+    margin: 50px;
+    position: relative;
+    top: 30px;
+}
+
+.pro h3 {
+    margin: 10px;
+}
+
+.hp img {
+    width: 300px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.about {
+
+    display: flex;
+}
+
+.aboutpage h2 {
+    margin: 10px;
+}
+
+.about img {
+    width: 300px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.aboutpage {
+    margin: 20px;
+    padding: 10px;
+    position: relative;
+    top: 70px;
+}
+
+.aboutpage h4 {
+    color: gray;
+}
+
+.skill {
+    background-color: lightcyan;
+}
+
+.skill div h4 {
+    color: gray;
+}
+
+.skilltitle {
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+
+.skilltitle h2 {
+    margin: 10px;
+}
+
+.skill div img {
+    width: 100px;
+    margin: 20px;
+    padding: 10px;
+    position: relative;
+    left: 10%;
+}
+
+.projectinfo h4 {
+    color: gray;
+}
+
+.projectinfo {
+    position: relative;
+    text-align: center;
+    top: 20px;
+}
+
+.projectinfo h2 {
+    margin: 10px;
+}
+
+.prodetail {
+    margin: 20px;
+    padding: 20px;
+    background-color: lightseagreen;
+    width: 200px;
+    position: relative;
+    top: 10px;
+    border-radius: 10px;
+}
+
+.prodetail img {
+    width: 200px;
+}
+
+.prodetail a {
+    text-decoration: none;
+}
+
+.pros {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.contect {
+    background-color: lightcyan;
+    padding: 30px;
+    padding-left: 5%;
+
+}
+
+.contect h3 {
+    padding: 6px;
+    padding-left: 0;
+}
+
+.contect h5 {
+    margin-top: 30px;
+}
+
+
+.contectheat {
+    color: gray;
+}
+
+.econtect i {
+    margin: 5px;
+    margin-top: 10px;
+}
